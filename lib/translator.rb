@@ -2,8 +2,7 @@
 
 
 def load_library
-  require "yaml"
-load_library = YAML.load_file('emotions.yml')
+  hash = { "get_emoticon" : {}}
 end
 
 def get_japanese_emoticon
